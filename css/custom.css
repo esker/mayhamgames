@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.navbar>a {
+    float: none;
+    color: #000000;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.navbar .nav>li>a:hover {
+    float: none;
+    color: #000000;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #cacaca;
+}
+
+html body {
+    background-color: #f1f1f1;
+}
+
+.card {
+    background-color: #f1f1f1;
+    border: 1px solid #000000;
+}
+
+.game-card {
+    min-height: 30em;
+}
+
+.card-text {
+    padding: 15px;
+    clear: both;
+    margin-top: .5em;
+    color: #595959;
+    font-size: 14px;
+    text-align: left;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    max-height: 300px;
+    min-height: 240px;
+    margin: 0;
+    padding: .75em .5em .5em .5em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-title {
+    color: #595959;
+    font-size: 20px;
+}
+
+.development_banner {
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.basic_layout {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
