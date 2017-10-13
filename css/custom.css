@@ -17,6 +17,37 @@
     font-weight: 400;
 }
 
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+#social-media-icons {
+    font-size: 1.5em;
+}
+
+
 hr {
     margin-top: 0px;
     margin-bottom: 20px;
@@ -31,7 +62,8 @@ html body {
 .btn {
     color: #595959;
     background-color: #8cc63f;
-    width: 100%;
+    width: 96%;
+    margin-bottom: 2px;
 }
 
 .lead {
@@ -147,7 +179,7 @@ html body {
 }
 
 .character-box .character-box-caption .character-box-caption-content .character-name {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .character-box:hover .character-box-caption {
